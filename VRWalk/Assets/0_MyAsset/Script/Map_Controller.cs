@@ -35,7 +35,12 @@ public class Map_Controller : MonoBehaviour {
         //端っこの処理
         if(Road[3].transform.position.z < -30)
         {
-            NextMaptip = Instantiate(Maptip[Random.Range(0, 1)]);//これで0になるはず
+            int random_map = Random.Range(0, Maptip.Length + 1);
+            if(random_map == 4)//キノコの楽園だったら一回再選出して確率を下げる
+            {
+                random_map = Random.Range(0, Maptip.Length + 1);
+            }
+            NextMaptip = Instantiate(Maptip[random_map]);
 
             Destroy(Road[3]);
             Road[3] = Road[2];

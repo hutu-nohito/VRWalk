@@ -42,7 +42,7 @@ public class Vision : MonoBehaviour {
         }
         if (!flag_perfect)
         {
-            if (looking_time > look_time * 2)//Parfect
+            if (looking_time > look_time * 3)//Parfect
             {
                 Parameter.score += 50;
                 flag_perfect = true;

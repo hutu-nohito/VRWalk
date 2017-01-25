@@ -10,7 +10,7 @@ public class Target_Controller : MonoBehaviour {
     Image Onpu_UI;
 
     [SerializeField]
-    float look_time = 3;//見る時間（共通）
+    float look_time = 1;//見る時間（共通）
     float looking_time = 0;//見つめている時間
 
     // Use this for initialization
@@ -21,15 +21,15 @@ public class Target_Controller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (looking_time > 2 * look_time)//good
+        if (looking_time > 3 * look_time)//good
         {
             Target_UI.color = new Color(1, 0, 0, 0);//消す
-            Onpu_UI.color = new Color(1, 0, 0.8f, 1);//つける
+            Onpu_UI.color = new Color(1, 1, 0, 1);//つける
         }
         else if (looking_time > look_time)//good
         {
             Target_UI.color = new Color(1, 0, 0, 0);//消す
-            Onpu_UI.color = new Color(1, 0, 0, 1);//つける
+            Onpu_UI.color = new Color(0, 0, 1, 1);//つける
         }
         
 
