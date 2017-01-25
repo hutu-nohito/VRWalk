@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRWalk.CSharp", "VRWalk.CSharp.csproj", "{A7DCBEFC-1DD0-CE1E-BC14-468B88FBA244}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRWalk.CSharp.Editor", "VRWalk.CSharp.Editor.csproj", "{F498D22C-B7EB-93AE-3F67-BC036DE0C65F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{A7DCBEFC-1DD0-CE1E-BC14-468B88FBA244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7DCBEFC-1DD0-CE1E-BC14-468B88FBA244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7DCBEFC-1DD0-CE1E-BC14-468B88FBA244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F498D22C-B7EB-93AE-3F67-BC036DE0C65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F498D22C-B7EB-93AE-3F67-BC036DE0C65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F498D22C-B7EB-93AE-3F67-BC036DE0C65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F498D22C-B7EB-93AE-3F67-BC036DE0C65F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
