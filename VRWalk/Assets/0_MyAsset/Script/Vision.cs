@@ -17,7 +17,7 @@ using System.Collections;
 public class Vision : MonoBehaviour {
 
     [SerializeField]
-    float look_time = 3;//見る時間（共通）
+    float look_time = 1;//見る時間（共通）
     float looking_time = 0;//見つめている時間
 
     bool flag_good = false;
@@ -36,7 +36,7 @@ public class Vision : MonoBehaviour {
         {
             if (looking_time > look_time)//good
             {
-                Parameter.score += 100;
+                Parameter.score += 10;
                 flag_good = true;
             }
         }
@@ -44,7 +44,7 @@ public class Vision : MonoBehaviour {
         {
             if (looking_time > look_time * 2)//Parfect
             {
-                Parameter.score += 500;
+                Parameter.score += 50;
                 flag_perfect = true;
             }
         }
